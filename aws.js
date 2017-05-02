@@ -18,10 +18,9 @@ let Lanes;
 let Users;
 let Harbors;
 let Shipments;
-const NAME = 'powershell';
+const NAME = 'aws';
 
 module.exports = {
-
   render_input: eval(
     fs.readFileSync(harbor_dir + '/ssh/render_input.js').toString()
   ),
